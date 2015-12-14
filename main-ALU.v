@@ -40,7 +40,7 @@ always@(ALUOp) begin
 				assign ALU_result = data_in_1 + data_in_2;
 			      end
 			AND : begin
-                                assign ALU_result = data_in_1 & data_in_2;
+                assign ALU_result = data_in_1 & data_in_2;
 			      end
 			NOR : begin
 				assign ALU_result = data_in_1 ~^ data_in_2;
